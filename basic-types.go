@@ -18,7 +18,7 @@ var (
 //string
 //
 //int  int8  int16  int32  int64
-//uint uint8 uint16 uint32 uint64 uintptr
+//uint uint8 uint16 uint32 uint64 uintptr 符号なし整数
 //
 //byte // uint8 の別名
 //
@@ -27,7 +27,7 @@ var (
 //
 //float32 float64
 //
-//complex64 complex128
+//complex64 complex128 複素数
 // @see builtin.go
 func main() {
 	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
