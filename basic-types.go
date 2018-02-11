@@ -28,6 +28,7 @@ var (
 //float32 float64
 //
 //complex64 complex128
+// @see builtin.go
 func main() {
 	fmt.Printf("Type: %T Value: %v\n", ToBe, ToBe)
 	fmt.Printf("Type: %T Value: %v\n", MaxInt, MaxInt)
